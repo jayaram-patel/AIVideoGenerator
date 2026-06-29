@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "The First Draft: A Simple Beginning.",
+      "visual_prompt": "Cinematic photograph of a close-up on a vintage typewriter key pressing down on a white sheet of paper, with the faint outline of text already present. Soft, warm morning light streams in from a window, creating a nostalgic and thoughtful mood. Low angle, focus on the key and paper."
+    },
+    {
+      "scene": 2,
+      "caption": "In the Moment: Crafting the Words Now.",
+      "visual_prompt": "Cinematic photograph of hands actively typing on a modern, sleek laptop keyboard. Shallow depth of field, blurring the background. Bright, focused desk lamp illuminates the hands and keyboard. The mood is determined and focused. Eye-level shot, slightly from behind the screen, showing concentration."
+    },
+    {
+      "scene": 3,
+      "caption": "Pausing for Thought: The Process Unfolds.",
+      "visual_prompt": "Cinematic photograph of a person's silhouette, head slightly bowed, looking out a window at a bustling city street. Rain streaks down the glass, blurring the urban lights into bokeh. The mood is contemplative, slightly pensive but hopeful. Medium shot from inside the room, looking towards the window."
+    },
+    {
+      "scene": 4,
+      "caption": "Anticipating the Future: The Main Task Awaits.",
+      "visual_prompt": "Cinematic photograph of a person standing confidently at a whiteboard, markers in hand, looking at a blank section with a determined expression. Ideas are scribbled on other parts of the board. Bright, clean office lighting. The mood is ambitious and forward-looking. Wide shot, showing the person and the whiteboard."
+    },
+    {
+      "scene": 5,
+      "caption": "Tomorrow's Promise: Goals on the Horizon.",
+      "visual_prompt": "Cinematic photograph of a vast, open landscape at sunrise, with a lone figure standing on a hill, looking towards the rising sun. Golden hour light bathes the scene in warmth and optimism. The mood is inspiring and full of potential. Extreme wide shot, emphasizing the scale of the landscape and the smallness but determination of the figure."
+    }
+  ]
+}

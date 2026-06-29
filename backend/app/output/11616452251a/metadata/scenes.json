@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "The Genesis: From Concept to Creation.",
+      "visual_prompt": "Cinematic photograph of a lone figure, subtly silhouetted against a softly glowing computer screen in a dimly lit, minimalist studio apartment at dawn. Dust motes dance in a single beam of light from a window. The character, seen from a low angle, gazes intently at the screen, a half-empty cup of coffee beside them, symbolizing the quiet beginning of a new idea. The mood is contemplative, hopeful."
+    },
+    {
+      "scene": 2,
+      "caption": "Global Reach: Your Message, Amplified.",
+      "visual_prompt": "Cinematic photograph of a person standing on a rooftop overlooking a sprawling, illuminated city at sunset, their back to the camera. Their arm is slightly outstretched, holding a smartphone with a glowing screen, as if projecting their vision onto the vast urban landscape below. The sky is a dramatic blend of orange, purple, and deep blue. High angle shot, emphasizing the scale and potential impact. The mood is expansive, inspiring."
+    },
+    {
+      "scene": 3,
+      "caption": "The Core: Crafting Your Vision.",
+      "visual_prompt": "Cinematic photograph of a close-up on a pair of hands intensely typing on a backlit mechanical keyboard, fingers flying across the keys with purpose. The background is softly blurred, showing an abstract glow from a monitor. Warm, focused lighting highlights the hands and the subtle texture of the keyboard. Medium shot, slightly Dutch angle, conveying diligence and deep immersion in the creative process. The mood is dedicated, industrious."
+    },
+    {
+      "scene": 4,
+      "caption": "The Catalyst: Harnessing the Power.",
+      "visual_prompt": "Cinematic photograph of a person's profile, dramatically illuminated by the intense blue-white light of a monitor screen, their face etched with concentration and a hint of excitement. Their eye is sharp, focused on an evolving digital design or text on screen. The surrounding room is dark, emphasizing the screen's powerful glow. Extreme close-up shot, highlighting the profound connection between human and technology. The mood is innovative, charged with potential."
+    },
+    {
+      "scene": 5,
+      "caption": "The Reveal: Vision Made Real.",
+      "visual_prompt": "Cinematic photograph of a stunning, vibrant digital image or video frame displayed prominently on a large, high-resolution monitor. In the foreground, slightly out of focus, a person's hand reaches out as if to gently touch the screen, their expression one of awe and deep satisfaction. Soft, diffused light illuminates the scene, highlighting the brilliant colors and intricate details of the generated image. Wide shot, focusing on the beautiful, tangible output of creativity. The mood is triumphant, fulfilling."
+    }
+  ]
+}

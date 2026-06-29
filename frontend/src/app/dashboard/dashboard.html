@@ -1,11 +1,190 @@
-<div class="container mt-5">
+<div class="dashboard">
 
-    <h1 class="mb-4">
-        AI Motivational Video Generator
-    </h1>
+  <!-- ─── Header ─── -->
+  <header class="dashboard-header fade-in-up">
+    <div class="header-content">
+      <div class="header-badge">
+        <i class="bi bi-images"></i>
+      </div>
+      <div>
+        <h1 class="header-title">Transcript → Images</h1>
+        <p class="header-subtitle">Paste a transcript, upload a character reference, get captioned scene images</p>
+      </div>
+    </div>
+  </header>
 
-    <button class="btn btn-primary">
-        Test Backend
-    </button>
+  <div class="dashboard-grid">
 
+    <!-- ═══════════════════ LEFT: Inputs ═══════════════════ -->
+    <div class="input-column">
+
+      <!-- Transcript -->
+      <section class="card fade-in-up" style="animation-delay: 0.1s">
+        <div class="card-header-row">
+          <div class="card-icon"><i class="bi bi-file-earmark-text"></i></div>
+          <h2 class="card-title">Transcript</h2>
+          <label class="btn-upload-file" for="transcriptFileInput">
+            <i class="bi bi-upload"></i> Upload .txt
+            <input
+              type="file"
+              id="transcriptFileInput"
+              accept=".txt"
+              class="d-none"
+              (change)="onTranscriptFileSelected($event)"
+            >
+          </label>
+        </div>
+
+        <textarea
+          class="form-control transcript-input"
+          id="transcriptInput"
+          rows="12"
+          placeholder="Paste your transcript here...&#10;&#10;The AI will split this into scenes and generate one image per scene with a caption overlay."
+          [ngModel]="transcript()"
+          (ngModelChange)="transcript.set($event)"
+        ></textarea>
+
+        <div class="char-count" [class.low]="transcript().length < 20">
+          {{ transcript().length }} characters
+        </div>
+      </section>
+
+      <!-- Character Reference -->
+      <section class="card fade-in-up" style="animation-delay: 0.2s">
+        <div class="card-header-row">
+          <div class="card-icon"><i class="bi bi-person-bounding-box"></i></div>
+          <h2 class="card-title">Character Reference</h2>
+        </div>
+
+        @if (!characterImage()) {
+          <label class="upload-zone" for="charImageInput" id="charUploadZone">
+            <i class="bi bi-person-bounding-box upload-icon"></i>
+            <span class="upload-text">Click to upload character image</span>
+            <span class="upload-hint">.png or .jpg — used as the main character in every generated image</span>
+            <input
+              type="file"
+              id="charImageInput"
+              accept=".png,.jpg,.jpeg"
+              class="d-none"
+              (change)="onImageSelected($event)"
+            >
+          </label>
+        } @else {
+          <div class="file-attached">
+            <div class="file-info">
+              @if (characterImagePreview()) {
+                <img [src]="characterImagePreview()!" class="image-preview" alt="Character">
+              }
+              <div>
+                <span class="file-name">{{ characterImage()!.name }}</span>
+                <span class="file-size">{{ (characterImage()!.size / 1024).toFixed(1) }} KB</span>
+              </div>
+            </div>
+            <button class="btn-remove" (click)="removeImage()" title="Remove">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+        }
+      </section>
+    </div>
+
+    <!-- ═══════════════════ RIGHT: Controls & Status ═══════════════════ -->
+    <div class="controls-column">
+
+      <!-- Image Count -->
+      <section class="card fade-in-up" style="animation-delay: 0.25s">
+        <div class="card-header-row">
+          <div class="card-icon"><i class="bi bi-grid-3x3-gap"></i></div>
+          <h2 class="card-title">Number of Images</h2>
+        </div>
+        <div class="slider-row">
+          <input
+            type="range"
+            class="form-range"
+            id="imageCount"
+            min="5"
+            max="25"
+            step="1"
+            [ngModel]="numberOfImages()"
+            (ngModelChange)="numberOfImages.set($event)"
+          >
+          <span class="count-badge">{{ numberOfImages() }}</span>
+        </div>
+        <p class="slider-hint">The transcript will be split into this many scenes</p>
+      </section>
+
+      <!-- Generate -->
+      <section class="card fade-in-up" style="animation-delay: 0.3s">
+        <button
+          class="btn-generate"
+          id="generateBtn"
+          [disabled]="!canGenerate()"
+          [class.processing]="isProcessing()"
+          (click)="generate()"
+        >
+          @if (isProcessing()) {
+            <span class="spinner"></span>
+            <span>{{ statusMessage() }}</span>
+          } @else {
+            <i class="bi bi-stars"></i>
+            <span>Generate Images</span>
+          }
+        </button>
+
+        @if (!canGenerate() && !isProcessing()) {
+          <p class="hint">
+            <i class="bi bi-info-circle"></i>
+            Paste a transcript (20+ chars) and upload a character image
+          </p>
+        }
+      </section>
+
+      <!-- Progress -->
+      @if (isProcessing() || status() === 'completed' || status() === 'error') {
+        <section class="card fade-in-up" style="animation-delay: 0.35s">
+          <div class="card-header-row">
+            <div class="card-icon" [class.success]="status() === 'completed'" [class.error]="status() === 'error'">
+              @if (status() === 'completed') {
+                <i class="bi bi-check-circle-fill"></i>
+              } @else if (status() === 'error') {
+                <i class="bi bi-exclamation-triangle-fill"></i>
+              } @else {
+                <i class="bi bi-activity"></i>
+              }
+            </div>
+            <h2 class="card-title">
+              @if (status() === 'completed') { Done }
+              @else if (status() === 'error') { Error }
+              @else { Progress }
+            </h2>
+          </div>
+
+          @if (isProcessing()) {
+            <div class="progress-row">
+              <div class="progress-track">
+                <div class="progress-fill animated" [style.width.%]="progressPercent()"></div>
+              </div>
+              <span class="progress-label">{{ completedImages() }} / {{ totalImages() }}</span>
+            </div>
+          }
+
+          @if (statusMessage()) {
+            <p class="status-msg" [class.error-text]="status() === 'error'">
+              {{ statusMessage() }}
+            </p>
+          }
+        </section>
+      }
+
+      <!-- Download -->
+      @if (status() === 'completed' && projectId()) {
+        <section class="card download-card fade-in-up">
+          <button class="btn-download" id="downloadBtn" (click)="download()">
+            <i class="bi bi-download"></i>
+            <span>Download Images (.zip)</span>
+          </button>
+        </section>
+      }
+    </div>
+  </div>
 </div>

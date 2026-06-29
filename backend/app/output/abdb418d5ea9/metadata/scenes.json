@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "The First Step: A New Beginning",
+      "visual_prompt": "Cinematic photograph of a lone figure standing at the edge of a vast, misty landscape at dawn. The sun's golden rays pierce through the fog, illuminating their determined silhouette. Low angle, wide shot, evoking hope and possibility."
+    },
+    {
+      "scene": 2,
+      "caption": "Building Momentum, Overcoming Obstacles",
+      "visual_prompt": "Cinematic photograph of the same figure, now actively climbing a rocky incline, muscles tensed. Rain begins to fall, reflecting the challenging but invigorating effort. Dynamic medium shot, strong backlighting, highlighting their resolve."
+    },
+    {
+      "scene": 3,
+      "caption": "The Mid-Point: Pushing Through Doubt",
+      "visual_prompt": "Cinematic photograph of the figure paused at a difficult juncture, looking out over a stormy valley. Their face is streaked with sweat and rain, a moment of deep introspection, but with a spark of renewed determination in their eyes. Close-up, dramatic side lighting, intense mood."
+    },
+    {
+      "scene": 4,
+      "caption": "Unwavering Focus, Nearing the Summit",
+      "visual_prompt": "Cinematic photograph of the figure, now higher up the mountain, silhouetted against a dramatic, cloud-filled sky as they reach for a handhold. The peak is visible in the distance. Heroic low angle, golden hour light breaking through clouds, conveying immense effort and impending success."
+    },
+    {
+      "scene": 5,
+      "caption": "Triumph Achieved: The View From the Top",
+      "visual_prompt": "Cinematic photograph of the figure standing victorious on a mountain summit, arms outstretched, gazing at a breathtaking panoramic view of sun-drenched valleys and distant peaks. A sense of profound peace and accomplishment. Wide shot, golden hour, epic and inspiring mood."
+    }
+  ]
+}

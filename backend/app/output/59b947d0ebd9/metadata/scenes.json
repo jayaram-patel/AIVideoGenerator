@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "Success isn't a destination, it's a journey.",
+      "visual_prompt": "Cinematic photograph of a young professional, impeccably dressed, standing confidently at the peak of a skyscraper rooftop at dawn. The city lights below are still twinkling, but the first rays of golden sunlight are hitting her face, casting long shadows. She looks out over the city with a thoughtful, reflective expression, not triumphant but contemplative, as if already looking towards the next challenge. Wide shot, slightly low angle, emphasizing scale and potential. Mood is hopeful, aspirational."
+    },
+    {
+      "scene": 2,
+      "caption": "Embrace setbacks, they are stepping stones.",
+      "visual_prompt": "Cinematic photograph of a person, mid-20s, with a determined yet slightly weary expression, standing amidst a light drizzle on a dimly lit urban street at dusk. They are looking down at a small puddle reflecting the neon lights, their face slightly wet. Their shoulders are squared, showing resilience. The mood is gritty but resolute. Close-up, eye-level shot. Soft, diffused lighting, with reflections adding depth."
+    },
+    {
+      "scene": 3,
+      "caption": "The courage to continue defines your path.",
+      "visual_prompt": "Cinematic photograph of a lone figure, silhouetted against a dramatic, stormy horizon, hiking up a steep, winding mountain trail. Rain and wind lash around them, but their posture is firm, head slightly bowed but pushing forward. The path ahead is challenging but visible. Low angle, wide shot, emphasizing the struggle and the grandeur of the journey. Mood is epic, resilient, powerful."
+    },
+    {
+      "scene": 4,
+      "caption": "Every grand vision starts with a single dreamer.",
+      "visual_prompt": "Cinematic photograph of a young artist, perhaps a painter or architect, sitting alone in a dimly lit, cozy studio space late at night. Scattered sketches and tools are around them. Their face is illuminated by the soft glow of a desk lamp, eyes wide with imagination, looking up and slightly away as if envisioning something grand. A subtle smile plays on their lips. Medium close-up, warm, intimate lighting. Mood is introspective, imaginative, full of potential."
+    },
+    {
+      "scene": 5,
+      "caption": "Remember your inner strength, always.",
+      "visual_prompt": "Cinematic photograph of a person, mid-30s, standing tall and confident in a sun-drenched, open field at golden hour. Their arms are relaxed at their sides, shoulders back, a calm and knowing smile on their face. The light bathes them in a warm, empowering glow. They look directly into the camera with a sense of peace and inner power. Medium shot, eye-level. Mood is empowering, serene, strong."
+    }
+  ]
+}

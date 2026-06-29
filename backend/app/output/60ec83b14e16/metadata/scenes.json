@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "The Canvas Awaits",
+      "visual_prompt": "Cinematic photograph of a minimalist, clean desk setup. A laptop screen displays a blank document with the cursor blinking. Soft, natural morning light spills in from a window, creating a hopeful, calm mood. Low angle, slightly looking up at the screen."
+    },
+    {
+      "scene": 2,
+      "caption": "Crafting the Initial Draft",
+      "visual_prompt": "Cinematic photograph of a close-up on a person's hands typing purposefully on a keyboard. Fingers are in motion, slightly blurred with action. The background is softly out of focus, suggesting deep concentration. Warm, focused task lighting from a desk lamp, creating an intimate, diligent mood. Medium shot, over the shoulder, focusing on the hands."
+    },
+    {
+      "scene": 3,
+      "caption": "Envisioning the Next Chapter",
+      "visual_prompt": "Cinematic photograph of a person looking up from their laptop, gaze distant and thoughtful, perhaps towards a window or a board with ideas. A slight smile of contemplation or determination plays on their lips. Soft, diffused daylight illuminates their face, creating a reflective, hopeful mood. Medium shot, slightly from the side."
+    },
+    {
+      "scene": 4,
+      "caption": "The Blueprint for Tomorrow",
+      "visual_prompt": "Cinematic photograph of a person at their desk, looking directly at the camera with a confident, determined expression. They might be holding a pen or resting hands on the keyboard, embodying readiness. Strong, directional lighting highlights their resolve, creating an empowering, focused mood. Close-up, eye-level."
+    },
+    {
+      "scene": 5,
+      "caption": "Anticipating the Full Story",
+      "visual_prompt": "Cinematic photograph of a wide shot of the person at their desk, now looking out a large window at a vibrant cityscape or a serene landscape. The desk setup is visible but secondary to the character's forward-looking posture. Golden hour lighting casts long shadows and a warm glow, creating an expansive, inspiring mood of future possibilities. Wide shot, slightly elevated, capturing the environment and the character."
+    }
+  ]
+}
