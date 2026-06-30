@@ -58,12 +58,29 @@ def _try_gemini_image(
     if char_ext == "jpg":
         char_ext = "jpeg"
 
-    full_prompt = (
-        f"{visual_prompt}\n\n"
-        f"The main character should closely resemble the reference image provided. "
-        f'Add a cinematic caption overlay at the bottom: "{caption}"\n'
-        f"Style: high quality, cinematic, 16:9 aspect ratio, dramatic lighting."
-    )
+    full_prompt = f"""Render a single cinematic image for the following scene.
+
+Use the attached reference photo as the main character.
+
+Maintain the exact same facial identity, hairstyle, age, skin tone, body type and appearance from the reference image across every generated scene.
+
+Style Requirements:
+- Ultra photorealistic
+- Hollywood cinematic lighting
+- Documentary photography
+- Natural skin texture and anatomy
+- Shallow depth of field
+- Professional color grading
+- Dramatic cinematic composition
+- Realistic shadows and volumetric lighting
+
+Landscape orientation. Aspect ratio 16:9. Generate exactly one image.
+
+Add this caption as a text overlay at the bottom of the image: "{caption}"
+
+Scene Description:
+
+{visual_prompt}"""
 
     for model in _IMAGE_MODELS:
         if not model:

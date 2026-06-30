@@ -1,0 +1,40 @@
+{
+  "total_scenes": 7,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "An unexpected observation sparks a creative idea.",
+      "visual_prompt": "A young student sits at a worn wooden desk in a dimly lit, cozy bedroom, late afternoon. Sunlight streams through a window on the left, illuminating dust motes in the air. The student, seen from a medium close-up, is leaning forward, eyes fixed intently on a small fly crawling on the wall just above their open sketchbook. Their body posture is slightly hunched with curiosity, a subtle spark of realization in their wide-eyed facial expression. The background shows bookshelves filled with books and art supplies, creating a studious, creative atmosphere. The camera is positioned at eye level, capturing the student's focused gaze and the tiny insect on the textured wall."
+    },
+    {
+      "scene": 2,
+      "caption": "Developing the core concept, including powers, name, and relatable challenges.",
+      "visual_prompt": "The student is seen from a high-angle, wide shot in a bustling university library, daytime. They are seated at a large, communal table, surrounded by other students studying, though slightly out of focus. The student is hunched over a large sketchbook, rapidly sketching and jotting down notes with a pencil. Their brow is furrowed in deep concentration, a determined yet thoughtful facial expression. Various drafts of character designs and names like 'Fly-Man' and 'Mosquito-Man' are visible on the page, leading to 'Spider-Man'. Overhead fluorescent lights provide a bright, even illumination. The composition emphasizes the student's isolated focus amidst a busy environment."
+    },
+    {
+      "scene": 3,
+      "caption": "Facing harsh criticism and the dismissal of a groundbreaking idea.",
+      "visual_prompt": "The student stands dejectedly in a stark, minimalist office, illuminated by harsh overhead lighting. A stern-faced, older male professor or mentor is seated behind a large, imposing desk, seen from a low-angle, medium shot, making them appear authoritative. The student, framed in a close-up, has slumped shoulders and a crestfallen facial expression, eyes downcast. Their hands are clasped loosely in front of them. The background features a large, empty whiteboard and a single potted plant, emphasizing the cold, unsupportive environment. The camera captures the weight of the rejection on the student's posture."
+    },
+    {
+      "scene": 4,
+      "caption": "Quietly persevering with the idea, unwilling to let it go.",
+      "visual_prompt": "A young student is captured in a shallow depth of field shot, focused on their hands. It's late night in their dorm room; the only light source is a desk lamp casting a warm glow over a comic book layout page. The student's fingers, slightly smudged with ink, are meticulously inking a panel featuring a character with spider-like abilities. Their facial expression is one of quiet determination and passion, a faint smile playing on their lips, visible in a tight close-up from a slightly elevated angle. The background is blurred, showing only vague shapes of a messy bed and a stack of art books, suggesting a personal, almost clandestine creative space."
+    },
+    {
+      "scene": 5,
+      "caption": "The unexpected triumph as the 'failed' project achieves success.",
+      "visual_prompt": "The student stands in the bright, open hallway of a school, a wide grin spreading across their face. A teacher or administrator, seen from a medium shot, is enthusiastically holding up a magazine or school publication with the student's character prominently featured on the cover. The teacher's posture is animated, pointing at the cover with excitement. The student's body language is a mix of surprise and burgeoning pride, their eyes wide with disbelief and joy. Natural daylight floods the hallway from large windows. The camera is at eye level, capturing the moment of unexpected recognition and validation."
+    },
+    {
+      "scene": 6,
+      "caption": "Embracing the core lesson: trust your good ideas.",
+      "visual_prompt": "The student stands confidently on a stage, bathed in the glow of a spotlight from a low-angle, full shot. They are addressing an unseen audience, their posture tall and self-assured, hands gesturing slightly. A clear, triumphant smile is on their face, eyes sparkling with conviction. The background is a blurred auditorium with faint rows of seats, suggesting a moment of public speaking or presentation. The lighting creates a dramatic, empowering silhouette around the student, emphasizing their newfound strength and belief in their vision. The composition highlights their elevated position and commanding presence."
+    },
+    {
+      "scene": 7,
+      "caption": "Finding pride and fulfillment in doing what you love.",
+      "visual_prompt": "The student is in their creative studio or bedroom, early morning, golden hour sunlight streaming through a window and illuminating dust particles. They are seated, leaning back slightly, holding a finished graphic novel or art portfolio. Their facial expression is one of profound satisfaction and pride, a gentle, knowing smile as they gaze at their completed work. The camera is positioned slightly above, looking down at a medium close-up, emphasizing the quiet, intimate moment of accomplishment. The background shows shelves filled with their various art projects, sketches, and finished pieces, a testament to their journey and dedication."
+    }
+  ]
+}

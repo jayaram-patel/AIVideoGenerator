@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "The creative process begins with observation and a flash of inspiration.",
+      "visual_prompt": "A young student, sitting at a cluttered drawing desk in a dimly lit attic room. A single bare bulb hangs overhead, casting strong shadows on the textured plaster wall. Their gaze is fixed intently on a small fly crawling on the wall beside them. The student leans forward slightly, a pencil held loosely in one hand, a sketchbook open but untouched on the desk. Dust motes dance in the light from the bulb. Medium shot, slightly low angle, emphasizing the student's focused attention and the humble, creative environment. Cinematic composition with leading lines from the desk towards the wall."
+    },
+    {
+      "scene": 2,
+      "caption": "Presenting a bold idea often meets resistance.",
+      "visual_prompt": "The student stands before a large, imposing dark wooden desk in a brightly lit, formal executive office. An older, stern-faced executive sits behind the desk, arms crossed, looking down at the student with a dismissive expression. The student holds a rolled-up drawing, their shoulders slightly slumped, a flicker of disappointment visible in their downcast eyes. The executive's office is grand, with tall bookshelves filled with books and large windows showing a city skyline, creating a stark contrast to the student's previous humble setting. Eye-level shot, wide framing, clearly showing the power dynamic and the vast space between them, with the executive dominating the frame."
+    },
+    {
+      "scene": 3,
+      "caption": "Sometimes, a great idea finds its way through unconventional means.",
+      "visual_prompt": "The student, alone in a quiet, almost empty print shop, late at night. Cool, sterile fluorescent lights hum overhead, casting an even glow. They are carefully, almost furtively, placing a single comic book page into a stack of generic magazine layouts on a large, industrial printing press table. Their back is partially turned to the camera, head slightly bowed in concentration, a determined but somewhat anxious expression on their face. The background shows stacks of paper and dormant industrial machinery. Medium shot, slightly high angle, emphasizing the solitary and clandestine nature of the act, with the student framed against the machinery."
+    },
+    {
+      "scene": 4,
+      "caption": "Persistence pays off, often in the most surprising ways.",
+      "visual_prompt": "The student stands in the doorway of the same executive's office from Scene 2. The executive is now beaming, holding up a copy of the magazine with the student's character prominently featured on the cover. The executive gestures animatedly towards the student, a look of impressed surprise and excitement on their face. The student, initially hesitant, now shows a subtle smile spreading across their face, a mixture of relief and vindication. The office is still grand, but the atmosphere is now vibrant and celebratory. Over-the-shoulder shot from behind the student, showing the executive's enthusiastic reaction and the featured magazine cover in clear detail."
+    },
+    {
+      "scene": 5,
+      "caption": "Trust your vision and don't let others deter you from what you believe in.",
+      "visual_prompt": "The student, now looking more confident and mature, stands on a slightly elevated stage, addressing an unseen audience. Warm, directional spotlight illuminates them from the front, creating soft highlights and shadows. They are holding a microphone, one hand gesturing gently, their facial expression thoughtful and earnest. The background is a soft, out-of-focus blur of a large auditorium, suggesting a listening crowd. Close-up shot, slightly low angle, emphasizing their authority and inspiring presence, with clear eye contact towards the camera, conveying a direct message."
+    }
+  ]
+}

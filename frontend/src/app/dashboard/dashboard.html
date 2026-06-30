@@ -3,9 +3,6 @@
   <!-- ─── Header ─── -->
   <header class="dashboard-header fade-in-up">
     <div class="header-content">
-      <div class="header-badge">
-        <i class="bi bi-images"></i>
-      </div>
       <div>
         <h1 class="header-title">Transcript → Images</h1>
         <p class="header-subtitle">Paste a transcript, upload a character reference, get captioned scene images</p>
@@ -21,10 +18,9 @@
       <!-- Transcript -->
       <section class="card fade-in-up" style="animation-delay: 0.1s">
         <div class="card-header-row">
-          <div class="card-icon"><i class="bi bi-file-earmark-text"></i></div>
           <h2 class="card-title">Transcript</h2>
           <label class="btn-upload-file" for="transcriptFileInput">
-            <i class="bi bi-upload"></i> Upload .txt
+            Upload .txt
             <input
               type="file"
               id="transcriptFileInput"
@@ -52,13 +48,11 @@
       <!-- Character Reference -->
       <section class="card fade-in-up" style="animation-delay: 0.2s">
         <div class="card-header-row">
-          <div class="card-icon"><i class="bi bi-person-bounding-box"></i></div>
           <h2 class="card-title">Character Reference</h2>
         </div>
 
         @if (!characterImage()) {
           <label class="upload-zone" for="charImageInput" id="charUploadZone">
-            <i class="bi bi-person-bounding-box upload-icon"></i>
             <span class="upload-text">Click to upload character image</span>
             <span class="upload-hint">.png or .jpg — used as the main character in every generated image</span>
             <input
@@ -80,9 +74,7 @@
                 <span class="file-size">{{ (characterImage()!.size / 1024).toFixed(1) }} KB</span>
               </div>
             </div>
-            <button class="btn-remove" (click)="removeImage()" title="Remove">
-              <i class="bi bi-x-lg"></i>
-            </button>
+            <button class="btn-remove" (click)="removeImage()" title="Remove">×</button>
           </div>
         }
       </section>
@@ -94,7 +86,6 @@
       <!-- Image Count -->
       <section class="card fade-in-up" style="animation-delay: 0.25s">
         <div class="card-header-row">
-          <div class="card-icon"><i class="bi bi-grid-3x3-gap"></i></div>
           <h2 class="card-title">Number of Images</h2>
         </div>
         <div class="slider-row">
@@ -105,6 +96,7 @@
             min="5"
             max="25"
             step="1"
+            [disabled]="isProcessing()"
             [ngModel]="numberOfImages()"
             (ngModelChange)="numberOfImages.set($event)"
           >
@@ -126,16 +118,12 @@
             <span class="spinner"></span>
             <span>{{ statusMessage() }}</span>
           } @else {
-            <i class="bi bi-stars"></i>
             <span>Generate Images</span>
           }
         </button>
 
         @if (!canGenerate() && !isProcessing()) {
-          <p class="hint">
-            <i class="bi bi-info-circle"></i>
-            Paste a transcript (20+ chars) and upload a character image
-          </p>
+          <p class="hint">Paste a transcript (20+ chars) and upload a character image</p>
         }
       </section>
 
@@ -143,15 +131,6 @@
       @if (isProcessing() || status() === 'completed' || status() === 'error') {
         <section class="card fade-in-up" style="animation-delay: 0.35s">
           <div class="card-header-row">
-            <div class="card-icon" [class.success]="status() === 'completed'" [class.error]="status() === 'error'">
-              @if (status() === 'completed') {
-                <i class="bi bi-check-circle-fill"></i>
-              } @else if (status() === 'error') {
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              } @else {
-                <i class="bi bi-activity"></i>
-              }
-            </div>
             <h2 class="card-title">
               @if (status() === 'completed') { Done }
               @else if (status() === 'error') { Error }
@@ -180,8 +159,7 @@
       @if (status() === 'completed' && projectId()) {
         <section class="card download-card fade-in-up">
           <button class="btn-download" id="downloadBtn" (click)="download()">
-            <i class="bi bi-download"></i>
-            <span>Download Images (.zip)</span>
+            Download Images (.zip)
           </button>
         </section>
       }

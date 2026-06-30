@@ -1,0 +1,40 @@
+{
+  "total_scenes": 7,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "A young creative faces a daunting challenge to innovate.",
+      "visual_prompt": "A young student sits alone at a worn wooden desk in a dimly lit, cluttered bedroom. Evening light streams weakly through a window, casting long shadows. Medium shot, eye-level angle. The student leans forward, elbows on the desk, head resting on hands, gaze fixed on an open sketchbook filled with half-drawn superhero designs. Their posture suggests deep thought and mild frustration, a slight furrow in their brow. Pens and crumpled papers are scattered around. The composition emphasizes the solitude of the creative process."
+    },
+    {
+      "scene": 2,
+      "caption": "An ordinary observation sparks an extraordinary idea.",
+      "visual_prompt": "A young student is startled as their focus shifts to a small fly crawling on a brightly lit wall in an old, quiet library. Close-up shot, slightly high angle, looking down. The student's eyes are wide with sudden realization, their mouth slightly ajar, a spark of inspiration visible in their expression. Their hand, holding a pencil, is frozen mid-air. The background is softly blurred, showing stacks of old books on shelves, highlighting the fly and the student's reaction."
+    },
+    {
+      "scene": 3,
+      "caption": "Developing the character, giving him depth and relatable struggles.",
+      "visual_prompt": "The student is actively sketching in their notebook, surrounded by scattered notes and concept art on a sun-drenched park bench. Overhead shot, wide angle. The student is hunched over, intensely focused, a slight smile playing on their lips as they rapidly draw. Their posture is engaged and energetic. Sunlight filters through overhead tree leaves, creating dappled patterns on the ground and bench. In the background, other students walk by, blurred, contrasting with the student's isolated creative world."
+    },
+    {
+      "scene": 4,
+      "caption": "The initial idea is met with harsh skepticism and rejection.",
+      "visual_prompt": "The student stands before an imposing, older man (the 'publisher') in a stark, formal office. Low angle shot, slightly wide. The student's shoulders are slumped, their gaze downcast, a look of disappointment and hurt on their face. The older man, seated behind a large, mahogany desk, gestures dismissively with one hand, his expression stern and unyielding. The office is brightly lit by overhead fluorescent lights, creating a harsh, unforgiving atmosphere. The composition emphasizes the power imbalance."
+    },
+    {
+      "scene": 5,
+      "caption": "Despite the setback, the creator secretly pursues their vision.",
+      "visual_prompt": "The student is seen late at night, hunched over a drawing board in a dimly lit art studio, working on a comic book cover. Medium shot, from behind the student's shoulder. Only a desk lamp illuminates their focused face and the artwork. Their posture is determined, almost defiant, as they meticulously ink details on a dynamic superhero figure. Dust motes dance in the lamp's glow. The background shows canvases and art supplies, suggesting a hidden, passionate endeavor."
+    },
+    {
+      "scene": 6,
+      "caption": "Unexpected success validates the once-rejected concept.",
+      "visual_prompt": "The student stands in a bustling newsstand, eyes wide with disbelief and joy, holding a comic book with their hero prominently on the cover. Close-up shot, slightly high angle. The student's face is a mixture of shock and elation, a genuine, radiant smile spreading across their face. Sunlight streams in from the street, illuminating their expression. In the blurred background, other customers browse, unaware of the student's profound moment of triumph. The comic cover is clearly visible."
+    },
+    {
+      "scene": 7,
+      "caption": "The enduring lesson: trust your good ideas, don't let others deter you.",
+      "visual_prompt": "The student walks confidently down a sunlit university path, a sketchbook tucked under one arm, a determined and self-assured expression on their face. Wide shot, tracking from behind, slowly revealing the student's profile. Their posture is upright and purposeful, reflecting newfound confidence. Lush green trees line the path, and other students are visible in the background, all moving with a sense of purpose. The warm, inviting light suggests a hopeful future, with the student ready to embrace new challenges."
+    }
+  ]
+}

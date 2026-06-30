@@ -1,0 +1,30 @@
+{
+  "total_scenes": 5,
+  "scenes": [
+    {
+      "scene": 1,
+      "caption": "A young creator finds inspiration in an unexpected place, observing a small creature and imagining extraordinary possibilities.",
+      "visual_prompt": "A young student sits at a cluttered wooden desk in a dimly lit, cozy attic workspace. A single desk lamp casts a warm glow on their thoughtful face. Their gaze is intently fixed on a small fly crawling slowly up a dusty, painted wall in the midground. The student is leaning forward slightly, chin resting on one hand, a notebook open but untouched beside them. The camera is a medium shot, slightly low angle, emphasizing the wall and the student's focused expression. Dust motes dance in the lamp's beam, creating a sense of quiet discovery."
+    },
+    {
+      "scene": 2,
+      "caption": "The promising idea is met with skepticism and outright dismissal, leaving the creator disheartened.",
+      "visual_prompt": "The student stands slump-shouldered in a stark, brightly lit corporate office. They are facing away from a large, imposing wooden desk where an unseen figure presumably sits. Their head is bowed, gaze directed at the polished floor. The office features tall windows revealing a grey, overcast sky, adding to the somber mood. The camera is a wide shot, high angle, looking down slightly on the student, making them appear small and vulnerable in the large, impersonal space. Their hands are clasped loosely in front of them, reflecting deep disappointment."
+    },
+    {
+      "scene": 3,
+      "caption": "Undeterred by rejection, the creator subtly introduces their unconventional idea into a low-stakes project, almost as a quiet act of defiance.",
+      "visual_prompt": "The student is hunched over a drawing board late at night in a quiet, slightly messy studio apartment. Moonlight streams through a window, illuminating dust motes and casting long shadows across the room. They are meticulously inking a character onto a magazine cover layout with a fine-tipped pen. Their brow is furrowed in concentration, a subtle, determined smirk playing on their lips. The camera is a close-up, over-the-shoulder shot, focusing on the student's hands and the artwork, with the faint glow of a monitor screen in the soft background."
+    },
+    {
+      "scene": 4,
+      "caption": "The gamble pays off, as the previously rejected concept proves to be a surprising success, leading to a sudden change of heart from the establishment.",
+      "visual_prompt": "The student is seated at a modest, metal desk in a bustling, sunlit editorial office, looking up with a startled, wide-eyed expression. An older, well-dressed man, partially obscured and out of focus in the foreground, has just burst into the frame, his arm enthusiastically pointing towards a stack of magazines on the desk. The student's face registers surprise turning into a hopeful, disbelieving smile. The camera is a dynamic, slightly Dutch angle, eye-level shot, capturing the sudden energy of the moment. Papers are scattered on the desk, implying recent activity."
+    },
+    {
+      "scene": 5,
+      "caption": "Reflecting on the journey, the creator shares a powerful message about conviction, resilience, and the pride of bringing one's unique vision to life.",
+      "visual_prompt": "The student stands confidently on a dimly lit stage, bathed in a single, powerful spotlight. They are looking directly forward, a calm, resolute expression on their face, a subtle, proud smile. Their posture is upright and open, radiating self-assurance. In their hands, they hold a well-worn comic book or portfolio, symbolizing their enduring creation. The background is a soft, blurred audience, suggesting a moment of shared wisdom and inspiration. The camera is a medium-close shot, slightly low angle, emphasizing their presence and the importance of their message."
+    }
+  ]
+}
